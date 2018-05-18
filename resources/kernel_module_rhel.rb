@@ -23,7 +23,6 @@ include Chef::Mixin::ShellOut
 resource_name :kernel_module_rhel
 
 provides :kernel_module, platform_family: 'rhel'
-provides :kernel_module, platform_family: 'amazon'
 
 default_action :load
 
