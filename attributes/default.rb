@@ -46,19 +46,19 @@ default['kernel_modules']['packages'] = value_for_platform_family(
   amazon: value_for_platform(
     %w[amazon] => {
       '~> 2' => [
-        'systemd'
-        'kmod'
+        'systemd',
+        'kmod',
       ]
     },
     'default' => [
-      'kmod'
+      'kmod',
     ],
   ),
   debian: value_for_platform(
     %[ubuntu] => {
       '~> 15.04' => [
         'systemd',
-        'kmod'
+        'kmod',
       ],
     },
     'default' => [
