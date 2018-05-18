@@ -76,6 +76,7 @@ default['kernel_modules']['modules_load.d'] = value_for_platform_family(
     },
   ),
   debian: '/etc/modules-load.d',
+  amazon: '/etc/modules-load.d',
   default: nil,
 )
 
